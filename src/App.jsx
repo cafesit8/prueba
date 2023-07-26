@@ -8,8 +8,8 @@ import Content from './layout/Content'
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Root />}>
-        <Route index element={<Home />} />
+      <Route element={<Root />}>
+        <Route path='/prueba' element={<Home />} />
         <Route element={<Content />}>
           <Route path='/continents' element={<Continents />} />
           <Route path='/countries' element={<Countries />} />
