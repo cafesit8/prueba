@@ -10,7 +10,7 @@ export default function SideBar({setModal, modal}) {
         <article className='flex flex-col gap-2'>
             <h2 className='text-center rounded-lg py-3 bg-[antiquewhite] text-[#5d6166] text-2xl'>Logo</h2>
             <div className='flex flex-col gap-3 mt-4'>
-                <NavLink className={({ isActive }) => isActive ? 'bg-[#ffffffcc] text-[#5d6166] p-2 font-bold rounded-lg' : 'p-2'} to={'/'}>Inicio</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'bg-[#ffffffcc] text-[#5d6166] p-2 font-bold rounded-lg' : 'p-2'} to={'/prueba'}>Inicio</NavLink>
                 <NavLink className={({ isActive }) => isActive ? 'bg-[#ffffffcc] text-[#5d6166] p-2 font-bold rounded-lg' : 'p-2'} to={'/continents'}>Continentes</NavLink>
                 <NavLink className={({ isActive }) => isActive ? 'bg-[#ffffffcc] text-[#5d6166] p-2 font-bold rounded-lg' : 'p-2'} to={'/countries'}>Paises</NavLink>
             </div>
